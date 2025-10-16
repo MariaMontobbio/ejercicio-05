@@ -1,0 +1,22 @@
+/* Contenedor del menú */
+nav ul {
+  display: flex;
+  align-items: center;   /* Alineación vertical */
+  gap: 1rem;             /* Separación uniforme (si procede) */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Logo separado del resto */
+nav li.logo {
+  margin-right: auto;    /* Usa palabra, no número */
+}
+
+/* Centrado del texto dentro de los enlaces */
+nav a span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
