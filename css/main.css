@@ -33,14 +33,15 @@ nav#horizontal ul {
   height: 3.5rem;
 }
 nav#vertical ul {
-  /* Afegir codi aquí per l'EXTRA */
+  display: flex;
+  flex-direction: column;
 }
 li {
   display: inline-block;
   height: 100%;
 }
 nav#horizontal li {
-  /* Afegir codi aquí */
+  padding-right: 20px;
 }
 nav#vertical li {
   width: 100%;
