@@ -53,7 +53,7 @@ li:hover {
 li#logo {
   /* Afegir codi aquí */
   margin-right: auto; 
-  padding-inline-start: 8%;
+  padding-inline-start: 8.5%;
 }
 li#logo:hover {
   background-color: var(--third-color); /* #752E20; */
@@ -76,8 +76,12 @@ nav#horizontal li#logo img {
   max-width: 80%;
   max-height: 80%;
 }
-nav#horizontal li#icono img,  nav#vertical li#icono img {
+li#icono img {
   filter: invert(92%) sepia(3%) saturate(895%) hue-rotate(318deg) brightness(104%) contrast(98%); 
   max-width: 60%;
   max-height: 60%;
+}
+nav#vertical ul li#icono {
+  max-width: 13%;
+  max-height: 13%;
 }
